@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Explore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>College Explore</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#clubs">Clubs</a>
+            <a href="#events">Events</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Explore Your College Life</h2>
+        <p>Everything about your college in one place.</p>
+        <input type="text" id="search"
+        placeholder="Search college information...">
+        <button onclick="searchCollege()">Search</button>
+    </section>
+
+    <section class="cards">
+        <div class="card" id="clubs">
+            <h2>College Clubs</h2>
+            <p>Explore technical and cultural clubs.</p>
+        </div>
+
+        <div class="card" id="events">
+            <h2>Events</h2>
+            <p>Discover upcoming college events.</p>
+        </div>
+
+        <div class="card" id="about">
+            <h2>College Information</h2>
+            <p>Explore campus and facilities.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
